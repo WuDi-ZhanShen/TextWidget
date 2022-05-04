@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dip">
+
+
+
+    <TableLayout
+        style="@style/tl"
+        android:layout_weight="1">
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="\n文字颜色" />
+
+        <TableRow>
+            <TextView
+                style="@style/ct"
+                android:text="红" />
+
+            <SeekBar
+                android:id="@id/m"
+                android:layout_height="40dp"
+                android:max="255" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/ct"
+                android:text="绿" />
+
+            <SeekBar
+                android:id="@id/o"
+                android:layout_height="40dp"
+                android:max="255" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/ct"
+                android:text="蓝" />
+
+            <SeekBar
+                android:id="@id/q"
+                android:layout_height="40dp"
+                android:max="255" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/ct"
+                android:text="透明度" />
+
+            <SeekBar
+                android:id="@id/u"
+                android:layout_height="40dp"
+                android:max="255" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        style="@style/tl"
+        android:layout_weight="1">
+
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:text="\n背景颜色" />
+
+        <TableRow>
+            <TextView
+                style="@style/ct"
+                android:text="红" />
+
+            <SeekBar
+                android:id="@id/mb"
+                android:layout_height="40dp"
+                android:max="255" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/ct"
+                android:text="绿" />
+
+            <SeekBar
+                android:id="@id/ob"
+                android:layout_height="40dp"
+                android:max="255" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                style="@style/ct"
+                android:text="蓝" />
+
+            <SeekBar
+                android:id="@id/qb"
+                android:layout_height="40dp"
+                android:max="255" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                style="@style/ct"
+                android:text="透明度" />
+
+            <SeekBar
+                android:id="@id/ub"
+                android:layout_height="40dp"
+                android:max="255" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
