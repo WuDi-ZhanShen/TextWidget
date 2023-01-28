@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="topleft" type="id" />
+    <item name="topcenter" type="id" />
+    <item name="topright" type="id" />
+    <item name="centerleft" type="id" />
+    <item name="centercenter" type="id" />
+    <item name="centerright" type="id" />
+    <item name="bottomleft" type="id" />
+    <item name="bottomcenter" type="id" />
+    <item name="bottomright" type="id" />
+    <item name="button_format" type="id" />
+    <item name="button_fontColor" type="id" />
+    <item name="button_backColor" type="id" />
+    <item name="button_gravity" type="id" />
+    <item name="k" type="id" />
+    <item name="m" type="id" />
+    <item name="o" type="id" />
+    <item name="q" type="id" />
+    <item name="u" type="id" />
+    <item name="x" type="id" />
+    <item name="z" type="id" />
+    <item name="ub" type="id" />
+    <item name="qb" type="id" />
+    <item name="ob" type="id" />
+    <item name="mb" type="id" />
+    <item name="u1" type="id" />
+    <item name="q1" type="id" />
+    <item name="o1" type="id" />
+    <item name="m1" type="id" />
+</resources>
