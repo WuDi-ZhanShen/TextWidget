@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.textwidget.SettingActivity"
+    android:initialLayout="@layout/widget"
+    android:minWidth="150.0dip"
+    android:minHeight="40.0dip"
+    android:minResizeWidth="20.0dip"
+    android:minResizeHeight="20.0dip"
+    android:previewImage="@mipmap/icon"
+    android:resizeMode="horizontal|vertical" />
