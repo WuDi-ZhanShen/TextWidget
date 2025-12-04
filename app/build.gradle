@@ -3,22 +3,31 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.textwidget"
         minSdk 14
-        targetSdk 33
-        versionCode 6
-        versionName "6"
+        targetSdk 35
+        versionCode 7
+        versionName "7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        release {
+            storeFile file('D:\\key.keystore') // Keystore文件的路径
+            storePassword 'wewewe' // Keystore密码
+            keyAlias 'key0' // Key别名
+            keyPassword 'wewewe' // Key密码
+        }
+    }
     buildTypes {
         release {
+            shrinkResources false
+            signingConfig signingConfigs.release
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
@@ -29,6 +38,7 @@ android {
         checkReleaseBuilds false
         abortOnError false
     }
+    namespace "com.textwidget"
 }
 
 dependencies {
